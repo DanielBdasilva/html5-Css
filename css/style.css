@@ -1,6 +1,8 @@
 body{
     background: rgb(236, 232, 232);
     font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
 }
 
 td{
@@ -24,14 +26,14 @@ td{
 }
 
 a{
-    text-decoration: line-through;
+    text-decoration:underline;
     color: #505050;
 }
 .postTitle{
     font-size: 16px;
     font-style: italic;
     margin: 0;
-    margin: bottom 15px; ;
+    margin: bottom 15px;
 }
 
 .post{
@@ -51,6 +53,7 @@ a{
 }
 
 .post_image{
+    margin-top: 5px;
     margin-bottom: 15px;
 }
 
@@ -62,4 +65,8 @@ a{
 
 .contact_list li a {
     text-decoration: none;
+}
+
+footer {
+    text-align: center;
 }
